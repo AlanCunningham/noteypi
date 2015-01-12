@@ -1,0 +1,22 @@
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes.dex : \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$1.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$2.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$3.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\BuildConfig.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\CordovaApp.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\Manifest$permission.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\Manifest.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$attr.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$drawable.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$string.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$xml.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\CordovaGCMBroadcastReceiver.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\GCMIntentService.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\PushHandlerActivity.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\PushPlugin.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\dexedLibs\classes-c9bebf3a2e2531f2b631b223bd5a45c5.jar \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\dexedLibs\gcm-1fb47a465b59eb28f14982a084496d45.jar \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\dexedLibs\android-support-v13-ca13c7ac520f6f8b627f3f0ae0cdf74b.jar \

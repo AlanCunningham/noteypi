@@ -17,7 +17,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-	
+	    
+    // Register for push notifications
 	pushHandler.register();
 	
   });
