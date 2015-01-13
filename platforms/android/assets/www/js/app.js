@@ -20,6 +20,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 	    
     // Register for push notifications
 	pushHandler.register();
+
+
+
+
 	
   });
 })

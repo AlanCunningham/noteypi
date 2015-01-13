@@ -1,9 +1,32 @@
 <ion-view view-title="Today">
+
   <ion-content>
+
     <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+
+      <ion-item ng-repeat="playlist in playlists">
+
+        <div class="list card">
+          <div style="padding: 10px">
+            <p>{{playlist.title}}</p>
+          </div>
+
+          <div class="item item-image" style="padding:100px"> <!-- Temporary padding to illustrate how much room a photo might take up -->
+            <center><i class="icon ion-image"></i></center>
+          </div>
+
+
+          <div class="item">
+            <div class="button-bar">
+              <a class="button button-full button-balanced icon ion-checkmark"></a>
+              <a class="button button-full button-assertive icon ion-close"></a>
+            </div>
+          </div>
+
+        </div>
+
       </ion-item>
+
     </ion-list>
   </ion-content>
 </ion-view>
