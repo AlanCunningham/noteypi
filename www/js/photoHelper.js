@@ -11,6 +11,29 @@ var photoHelper = {
     getTodayPhotos: function(){
 
         // Open database and retrieve photo base64 and timestamp
+        var photos = new Array();
+
+        for(var i = 0; i < 3; i++){
+            photos.push({
+                id: i,
+                date: dateHelper.getTime()
+            });
+        }
+
+    },
+
+    // Temporarily saves data to localStorage - testing for onNotification functionality
+    savePhoto: function(){
+
+        var photos = localStorageHelper.getObject("photos");
+
+        photos.push({
+            date: dateHelper.getDate() + " at " + dateHelper.getTime()
+        });
+
+        localStorageHelper.storeObject("photos")
+
+
 
     },
 

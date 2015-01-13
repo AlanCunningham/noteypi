@@ -18,11 +18,9 @@ var dateHelper = {
     },
 
     getTime: function(){
+        var time = new Date().toString("HH:mm:ss");
 
-        var time = Date.today().toString("HH:mm:ss");
-
-        return time
-
+        return time;
     }
 
 }
