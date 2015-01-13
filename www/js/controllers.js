@@ -36,7 +36,7 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: '09:42', id: 1 },
-    { title: '10:32', id: 2 },
+    { title: '10:39', id: 2 },
     { title: '12:01', id: 3 }
   ];
 })
