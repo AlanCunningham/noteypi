@@ -34,13 +34,17 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: '09:42', id: 1 },
-    { title: '10:32', id: 2 },
-    { title: '12:01', id: 3 }
+
+  // Temporarily hard coded in.  The array will eventually be added to when a notification is received.
+  $scope.todayPhotos = [
+    { time: '10:06:02', id: 1 },
+    { time: '09:31:42', id: 2 },
+    { time: '07:16:26', id: 3 }
   ];
 })
 
+.controller("HistoryCtrl", function($scope){
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+  $scope.historyPhotos = photoHelper.getHistoryPhotos();
+
+})

@@ -4,17 +4,17 @@
 
     <ion-list>
 
-      <ion-item ng-repeat="playlist in playlists">
+      <ion-item ng-repeat="photo in todayPhotos">
 
         <div class="list card">
           <div style="padding: 10px">
-            <p>{{playlist.title}}</p>
+            <p>{{photo.time}}</p>
           </div>
 
           <div class="item item-image" style="padding:100px"> <!-- Temporary padding to illustrate how much room a photo might take up -->
             <center><i class="icon ion-image"></i></center>
           </div>
-          
+
           <div class="item">
             <div class="button-bar">
               <a class="button button-full button-balanced icon ion-checkmark"></a>

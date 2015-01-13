@@ -42,7 +42,12 @@ C:\ionic\noteypi\noteypi\platforms\android\assets\www\css\style.css \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\img\ionic.png \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\app.js \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\controllers.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\helpers \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\libs \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\photoHelper.js \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\push \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\helpers\dateHelper.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\libs\date.js \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\push\pushHandler.js \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\css \
@@ -126,6 +131,6 @@ C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\browse.html \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\login.html \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\menu.html \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\playlist.html \
-C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\playlists.html \
 C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\search.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\today.html \
 C:\ionic\noteypi\noteypi\platforms\android\ant-build\AndroidManifest.xml \

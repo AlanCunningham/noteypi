@@ -17,14 +17,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-	    
+
+    dateHelper.getDate();
+
+    photoHelper.getPhotos();
+
+
+
     // Register for push notifications
 	pushHandler.register();
 
-
-
-
-	
   });
 })
 
@@ -51,7 +53,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: "/browse",
     views: {
       'menuContent': {
-        templateUrl: "templates/browse.html"
+        templateUrl: "templates/browse.html",
+        controller: "HistoryCtrl"
       }
     }
   })
@@ -59,21 +62,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/playlists",
       views: {
         'menuContent': {
-          templateUrl: "templates/playlists.html",
+          templateUrl: "templates/today.html",
           controller: 'PlaylistsCtrl'
         }
       }
     })
 
-  .state('app.single', {
-    url: "/playlists/:playlistId",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
-      }
-    }
-  });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
 });
