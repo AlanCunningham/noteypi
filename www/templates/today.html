@@ -1,15 +1,9 @@
 <ion-view view-title="Today">
 
   <ion-content>
-    <ion-refresher
-            pulling-text="Pull to refresh..."
-            on-refresh="">
-    </ion-refresher>
-
-
 
     <div class="list card" ng-repeat="photo in todayPhotos">
-      <div style="padding: 10px">
+      <div style="padding-top: 10px; padding-left: 10px">
         <p>{{photo.date}}</p>
       </div>
 
