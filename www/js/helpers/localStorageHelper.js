@@ -9,9 +9,14 @@
 
 var localStorageHelper = {
 
-    storeObject: function(key, object){
+    storeObject: function(keyString, objectToStore){
 
-        window.localStorage.setItem(key, JSON.stringify(object));
+/*
+        objectToStore = {
+            name: "Test"
+        };
+*/
+        window.localStorage.setItem(keyString, JSON.stringify(objectToStore));
 
     },
 

@@ -18,7 +18,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       StatusBar.styleDefault();
     }
 
-    photoHelper.getPhotos();
+    //photoHelper.savePhoto();
 
     // Register for push notifications
 	pushHandler.register();

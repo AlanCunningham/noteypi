@@ -75,11 +75,14 @@ var pushHandler = {
 		    break;
 
 		    case 'message':
+
+				pushResponse.onNotification();
+
 		        // if this flag is set, this notification happened while we were in the foreground.
 		        // you might want to play a sound to get the user's attention, throw up a dialog, etc.
 		        if ( e.foreground )
 		        {
-		        	alert("Incoming message!\n" + e.payload.message);
+		        	//alert("Incoming message!\n" + e.payload.message);
 		            //$("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
 
 		            // on Android soundname is outside the payload.

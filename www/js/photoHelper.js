@@ -6,7 +6,6 @@
 
 var photoHelper = {
 
-
     // Retrieve photos from today
     getTodayPhotos: function(){
 
@@ -25,23 +24,27 @@ var photoHelper = {
     // Temporarily saves data to localStorage - testing for onNotification functionality
     savePhoto: function(){
 
-        var photos = localStorageHelper.getObject("photos");
+        // This really needs to be moved as to the application init
+        if(localStorageHelper.getObject("photos") == null){
+            console.log("Photo storage does not yet exist - creating");
+            var photos = new Array();
+        } else {
+            var photos = localStorageHelper.getObject("photos");
+        }
 
         photos.push({
             date: dateHelper.getDate() + " at " + dateHelper.getTime()
         });
 
-        localStorageHelper.storeObject("photos")
-
-
-
+        localStorageHelper.storeObject("photos", photos);
+        console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
     },
 
     // Retrieve historical photos
     getHistoryPhotos: function(){
         var photos = new Array();
 
-        for(var i = 0; i < 10; i++){
+        for(var i = 0; i < 4; i++){
             photos.push({
                 id: i,
                 date: dateHelper.getDate() + " at " + dateHelper.getTime()

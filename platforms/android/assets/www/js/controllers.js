@@ -36,15 +36,20 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', function($scope) {
 
   // Temporarily hard coded in.  The array will eventually be added to when a notification is received.
+
   $scope.todayPhotos = [
-    { time: '10:06:02', id: 1 },
-    { time: '09:31:42', id: 2 },
-    { time: '07:16:26', id: 3 }
+    { date: '10:06:02', id: 1 },
+    { date: '09:31:42', id: 2 },
+    { date: '07:16:26', id: 3 }
   ];
+
+  //$scope.todayPhotos = localStorageHelper.getObject("photos");
+
 })
 
 .controller("HistoryCtrl", function($scope){
 
   $scope.historyPhotos = photoHelper.getHistoryPhotos();
+  //$scope.historyPhotos = localStorageHelper.getObject("photos");
 
 })

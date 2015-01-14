@@ -1,137 +1,138 @@
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\CordovaApp.ap_ \
- : E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-hdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-land-hdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-land-ldpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-land-mdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-land-xhdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-ldpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-mdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-port-hdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-port-ldpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-port-mdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-port-xhdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\drawable-xhdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\values\strings.xml \
-E:\Google Drive\android\ionic\noteypi\platforms\android\res\xml\config.xml \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-hdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-ldpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-mdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\_where-is-www.txt \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\cordova.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\cordova_plugins.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\css \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\img \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\index.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\css\style.css \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\img\ionic.png \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\app.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\controllers.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\helpers \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\libs \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\photoHelper.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\push \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\helpers\dateHelper.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\helpers\localStorageHelper.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\libs\date.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\js\push\pushHandler.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\css \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\fonts \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\version.json \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\css\ionic.css \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\css\ionic.min.css \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.eot \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.svg \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.ttf \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.woff \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic-angular.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic-angular.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.bundle.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.bundle.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.min.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionic.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_action-sheet.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_animations.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_backdrop.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_badge.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_bar.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_button-bar.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_button.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_checkbox.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_form.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_grid.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_items.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_list.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_loading.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_menu.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_mixins.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_modal.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_platform.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_popover.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_popup.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_progress.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_radio.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_range.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_reset.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_scaffolding.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_select.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_slide-box.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_tabs.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_toggle.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_transitions.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_type.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_util.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\_variables.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\ionicons.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-animation.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-font.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-icons.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-variables.scss \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\browse.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\login.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\menu.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\playlist.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\search.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\assets\www\templates\today.html \
-E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\AndroidManifest.xml \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\CordovaApp.ap_ \
+ : C:\ionic\noteypi\noteypi\platforms\android\res\drawable\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-hdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-land-hdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-land-ldpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-land-mdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-land-xhdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-ldpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-mdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-port-hdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-port-ldpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-port-mdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-port-xhdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\drawable-xhdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\res\values\strings.xml \
+C:\ionic\noteypi\noteypi\platforms\android\res\xml\config.xml \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www \
+C:\ionic\noteypi\noteypi\platforms\android\assets\_where-is-www.txt \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\cordova.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\cordova_plugins.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\css \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\img \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\index.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\css\style.css \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\img\ionic.png \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\app.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\controllers.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\helpers \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\libs \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\photoHelper.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\push \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\helpers\dateHelper.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\helpers\localStorageHelper.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\libs\date.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\push\pushHandler.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\js\push\pushResponse.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\css \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\fonts \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\version.json \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\css\ionic.css \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\css\ionic.min.css \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.eot \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.svg \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.ttf \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\fonts\ionicons.woff \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic-angular.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic-angular.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.bundle.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.bundle.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\ionic.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular\angular.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.min.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionic.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_action-sheet.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_animations.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_backdrop.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_badge.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_bar.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_button-bar.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_button.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_checkbox.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_form.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_grid.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_items.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_list.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_loading.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_menu.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_mixins.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_modal.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_platform.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_popover.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_popup.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_progress.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_radio.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_range.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_reset.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_scaffolding.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_select.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_slide-box.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_tabs.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_toggle.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_transitions.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_type.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_util.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\_variables.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\ionicons.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-animation.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-font.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-icons.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-variables.scss \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\browse.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\login.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\menu.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\playlist.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\search.html \
+C:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\today.html \
+C:\ionic\noteypi\noteypi\platforms\android\ant-build\AndroidManifest.xml \
