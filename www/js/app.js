@@ -7,6 +7,10 @@
 angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
 
 .run(function($ionicPlatform) {
+
+  photoHelper.checkStorage();
+
+
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -17,6 +21,8 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+
+    photoHelper.savePhoto();
 
     //photoHelper.savePhoto();
 

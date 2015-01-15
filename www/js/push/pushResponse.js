@@ -9,6 +9,7 @@ var pushResponse = {
 
     onNotification: function(){
 
+        // Save a "photo" to storage.  At the moment, simply save the current date and time.
         photoHelper.savePhoto();
 
     }
