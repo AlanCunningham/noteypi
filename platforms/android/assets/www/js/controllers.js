@@ -33,17 +33,25 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
+.controller('PlaylistsCtrl', function($scope, $state) {
 
   // Temporarily hard coded in.  The array will eventually be added to when a notification is received.
 
+  /*
   $scope.todayPhotos = [
     { date: '10:06:02', id: 1 },
     { date: '09:31:42', id: 2 },
     { date: '07:16:26', id: 3 }
   ];
+  */
+  $scope.todayPhotos = localStorageHelper.getObject("photos");
 
-  //$scope.todayPhotos = localStorageHelper.getObject("photos");
+   $scope.refresh = function(){
+      //photoHelper.savePhoto();
+      //$state.go($state.current, {}, {reload: true});
+      $scope.todayPhotos = localStorageHelper.getObject("photos");
+      $scope.$broadcast('scroll.refreshComplete');
+    };
 
 })
 

@@ -1,6 +1,10 @@
 <ion-view view-title="Today">
 
   <ion-content>
+    <ion-refresher
+            pulling-text="Pull to refresh..."
+            on-refresh="refresh()">
+    </ion-refresher>
 
     <div class="list card" ng-repeat="photo in todayPhotos">
       <div style="padding-top: 10px; padding-left: 10px">
@@ -13,12 +17,11 @@
 
       <div class="item">
         <div class="button-bar">
-          <a class="button button-full button-balanced icon ion-checkmark"></a>
-          <a class="button button-full button-assertive icon ion-close"></a>
+          <button class="button button-full button-balanced icon ion-checkmark" ng-click=""></button>
+          <button class="button button-full button-assertive icon ion-close"></button>
         </div>
       </div>
     </div>
-
 
   </ion-content>
 </ion-view>

@@ -9,9 +9,7 @@ var pushResponse = {
 
     onNotification: function(){
 
-        //photoHelper.savePhoto();
-
-
+        photoHelper.savePhoto();
 
     }
 
