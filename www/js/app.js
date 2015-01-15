@@ -22,7 +22,7 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
       StatusBar.styleDefault();
     }
 
-    photoHelper.savePhoto();
+    
 
     //photoHelper.savePhoto();
 
