@@ -9,16 +9,9 @@ var photoHelper = {
     // Retrieve photos from today
     getTodayPhotos: function(){
 
-        // Open database and retrieve photo base64 and timestamp
-        var photos = new Array();
+       var todayPhotos = localStorageHelper.getObject("photos");
 
-        for(var i = 0; i < 3; i++){
-            photos.push({
-                id: i,
-                date: dateHelper.getTime()
-            });
-        }
-
+        return todayPhotos;
     },
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
@@ -32,7 +25,7 @@ var photoHelper = {
             var photos = localStorageHelper.getObject("photos");
         }
 
-        photos.push({
+        photos.unshift({
             date: dateHelper.getDate() + " at " + dateHelper.getTime()
         });
 
@@ -45,7 +38,7 @@ var photoHelper = {
         var photos = new Array();
 
         for(var i = 0; i < 4; i++){
-            photos.push({
+            photos.unshift({
                 id: i,
                 date: dateHelper.getDate() + " at " + dateHelper.getTime()
             });

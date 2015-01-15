@@ -44,12 +44,12 @@ angular.module('starter.controllers', [])
     { date: '07:16:26', id: 3 }
   ];
   */
-  $scope.todayPhotos = localStorageHelper.getObject("photos");
+  $scope.todayPhotos = photoHelper.getTodayPhotos();
 
    $scope.refresh = function(){
       //photoHelper.savePhoto();
       //$state.go($state.current, {}, {reload: true});
-      $scope.todayPhotos = localStorageHelper.getObject("photos");
+      $scope.todayPhotos = photoHelper.getTodayPhotos();
       $scope.$broadcast('scroll.refreshComplete');
     };
 

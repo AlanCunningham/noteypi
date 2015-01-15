@@ -11,7 +11,7 @@ var dateHelper = {
 
         //var date = Date.today().day().toString("dddd d MMMM");
         // Currently used for the history page, so we minus one day.
-        var date = Date.today().add(-1).day().toString("dddd d MMMM");
+        var date = Date.today().toString("dddd d MMMM");
 
         return date;
 
