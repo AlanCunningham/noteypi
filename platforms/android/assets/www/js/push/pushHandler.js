@@ -76,7 +76,7 @@ var pushHandler = {
 
 		    case 'message':
 
-				pushResponse.onNotification();
+				pushResponse.onNotification(e.payload);
 
 		        // if this flag is set, this notification happened while we were in the foreground.
 		        // you might want to play a sound to get the user's attention, throw up a dialog, etc.

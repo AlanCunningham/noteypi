@@ -1,2 +1,2 @@
-C:\ionic\noteypi\noteypi\platforms\android\ant-build\AndroidManifest.xml : \
-C:\ionic\noteypi\noteypi\platforms\android\AndroidManifest.xml \
+E:\Google Drive\android\ionic\noteypi\platforms\android\ant-build\AndroidManifest.xml : \
+E:\Google Drive\android\ionic\noteypi\platforms\android\AndroidManifest.xml \

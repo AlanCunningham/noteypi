@@ -17,13 +17,16 @@ var photoHelper = {
     },
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
-    savePhoto: function(){
+    savePhoto: function(dateTime){
 
         var photos = localStorageHelper.getObject("photos");
+        // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
+        var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
+        var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
 
         // Save the photo at the beginning of the array
         photos.push({
-            date: dateHelper.getDate() + " at " + dateHelper.getTime()
+            date: parsedDate + " at " + parsedTime
         });
 
         localStorageHelper.storeObject("photos", photos);
@@ -58,8 +61,7 @@ var photoHelper = {
             var formattedTodayDate = Date.today().toString("ddMMyy");//
 
             if(formattedTodayDate != formattedPhotoDate){
-                // We'll have the history in chronological order - so we use push instead of unshift
-                historyPhotos.push(allPhotos[i]);
+                historyPhotos.unshift(allPhotos[i]);
             }
           }
 
