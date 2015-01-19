@@ -6,6 +6,7 @@
 
 var photoHelper = {
 
+    // TODO: Remove when indexedDB is implemented.  This should no longer be required.
     checkStorage: function(){
 
         // This really needs to be moved as to the application init
@@ -18,8 +19,8 @@ var photoHelper = {
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
     savePhoto: function(dateTime){
-
         var photos = localStorageHelper.getObject("photos");
+        //var photos = new Array();
         // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
         var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
         var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
@@ -30,13 +31,14 @@ var photoHelper = {
         });
 
         localStorageHelper.storeObject("photos", photos);
+
         console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
     },
 
     // Retrieve photos from today
     getTodayPhotos: function(){
        var allPhotos = localStorageHelper.getObject("photos");
-       var todayPhotos = new Array();
+       var todayPhotos = new Array();10
 
        for(var i = 0; i < allPhotos.length; i++){
             var formattedPhotoDate = Date.parse(allPhotos[i].date).toString("ddMMyy");

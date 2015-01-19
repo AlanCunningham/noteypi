@@ -8,7 +8,9 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
 
 .run(function($ionicPlatform) {
 
+  // TODO: Remove when indexedDB is implemented.  This should no longer be required.
   photoHelper.checkStorage();
+  application.init();
 
 
   $ionicPlatform.ready(function() {
@@ -22,12 +24,7 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
       StatusBar.styleDefault();
     }
 
-    
 
-    //photoHelper.savePhoto();
-
-    // Register for push notifications
-	pushHandler.register();
 
   });
 })

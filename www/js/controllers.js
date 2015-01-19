@@ -35,15 +35,7 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope, $state) {
 
-  // Temporarily hard coded in.  The array will eventually be added to when a notification is received.
-
-  /*
-  $scope.todayPhotos = [
-    { date: '10:06:02', id: 1 },
-    { date: '09:31:42', id: 2 },
-    { date: '07:16:26', id: 3 }
-  ];
-  */
+  // Get all photos from today
   $scope.todayPhotos = photoHelper.getTodayPhotos();
 
    $scope.refresh = function(){
