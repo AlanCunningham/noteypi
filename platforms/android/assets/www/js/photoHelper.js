@@ -38,7 +38,7 @@ var photoHelper = {
     // Retrieve photos from today
     getTodayPhotos: function(){
        var allPhotos = localStorageHelper.getObject("photos");
-       var todayPhotos = new Array();10
+       var todayPhotos = new Array();
 
        for(var i = 0; i < allPhotos.length; i++){
             var formattedPhotoDate = Date.parse(allPhotos[i].date).toString("ddMMyy");
