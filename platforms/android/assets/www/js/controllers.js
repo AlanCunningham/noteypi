@@ -33,23 +33,72 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope, $state) {
+.controller('PlaylistsCtrl', function($scope, $state, $timeout, $ionicLoading) {
 
-  // Get all photos from today
-  $scope.todayPhotos = photoHelper.getTodayPhotos();
+  /* Setup the loader
+  $ionicLoading.show({
+    content: 'Loading',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxWidth: 200,
+    showDelay: 0
+  });
+  */
 
-   $scope.refresh = function(){
-      //photoHelper.savePhoto();
-      //$state.go($state.current, {}, {reload: true});
-      $scope.todayPhotos = photoHelper.getTodayPhotos();
+  $timeout(function(){
+    $scope.getTodayPhotos();
+    //$ionicLoading.hide();
+  }, 100); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
+
+  $scope.getTodayPhotos = function(){
+      // Get all photos from today
+      photoHelper.getTodayPhotos(function(photos){
+      //alert("Yay!" + photos[0].date);
+      $scope.todayPhotos = photos;
+      $scope.refresh();
+     });
+  }
+
+  $scope.refresh = function(){
+    photoHelper.getTodayPhotos(function(photos){
+      $scope.todayPhotos = photos;
       $scope.$broadcast('scroll.refreshComplete');
-    };
+    });
+  };
 
 })
 
-.controller("HistoryCtrl", function($scope){
+.controller("HistoryCtrl", function($scope, $state, $timeout, $ionicLoading){
+/*
+    // Setup the loader
+    $ionicLoading.show({
+      content: 'Loading',
+      animation: 'fade-in',
+      showBackdrop: true,
+      maxWidth: 200,
+      showDelay: 0
+    });
+*/
+    $timeout(function(){
+      $scope.getHistoryPhotos();
+      //$ionicLoading.hide();
+    }, 100); // Temporary timeout to allow the database to open.  Really we should have a listener to return when the database has opened.
 
-  $scope.historyPhotos = photoHelper.getHistoryPhotos();
-  //$scope.historyPhotos = localStorageHelper.getObject("photos");
+    $scope.getHistoryPhotos = function(){
+          // Get all photos from today
+          photoHelper.getHistoryPhotos(function(photos){
+          $scope.HistoryPhotos = photos;
+          $scope.refresh();
+         });
+      }
+
+      $scope.refresh = function(){
+        photoHelper.getHistoryPhotos(function(photos){
+          //alert("Yay!" + photos[0].date);
+          $scope.historyPhotos = photos;
+          $scope.$broadcast('scroll.refreshComplete');
+        });
+      };
+
 
 })

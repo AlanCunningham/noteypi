@@ -19,55 +19,77 @@ var photoHelper = {
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
     savePhoto: function(dateTime){
-        var photos = localStorageHelper.getObject("photos");
+        //var photos = localStorageHelper.getObject("photos");
         //var photos = new Array();
         // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
         var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
         var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
 
         // Save the photo at the beginning of the array
-        photos.push({
+        var photo = {
             date: parsedDate + " at " + parsedTime
-        });
+        };
 
-        localStorageHelper.storeObject("photos", photos);
+        //localStorageHelper.storeObject("photos", photos);
+
+        database.addRecord("photos", photo, function(e){
+            console.log("Added record");
+        });
 
         console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
     },
 
     // Retrieve photos from today
-    getTodayPhotos: function(){
+    getTodayPhotos: function(completedHandler){
        var allPhotos = localStorageHelper.getObject("photos");
        var todayPhotos = new Array();
 
-       for(var i = 0; i < allPhotos.length; i++){
-            var formattedPhotoDate = Date.parse(allPhotos[i].date).toString("ddMMyy");
-            var formattedTodayDate = Date.today().toString("ddMMyy");//
+       database.readAllRecords("photos", function(e){
+        var result = e.target.result;
+        if(result){
+            //console.log("photoHelper:getTodayPhotos - " + (result.value.date));
+            var formattedPhotoDate = Date.parse(result.value.date).toString("ddMMyy");
+            var formattedTodayDate = Date.today().toString("ddMMyy");
 
             if(formattedTodayDate == formattedPhotoDate){
+                console.log("photoHelper:getTodayPhotos - Found photo for today: " + (result.value.date));
                 // Unshift to get the latest photos first
-                todayPhotos.unshift(allPhotos[i]);
+                todayPhotos.unshift(result.value);
             }
-       }
 
-       return todayPhotos;
+            result.continue();
+        } else {
+            completedHandler(todayPhotos);
+        }
+
+       })
     },
 
     // Retrieve historical photos
-    getHistoryPhotos: function(){
-        var allPhotos = localStorageHelper.getObject("photos");
-        var historyPhotos = new Array();
+    getHistoryPhotos: function(completedHandler){
+       var allPhotos = localStorageHelper.getObject("photos");
+       var historyPhotos = new Array();
 
-          for(var i = 0; i < allPhotos.length; i++){
-            var formattedPhotoDate = Date.parse(allPhotos[i].date).toString("ddMMyy");
-            var formattedTodayDate = Date.today().toString("ddMMyy");//
+       database.readAllRecords("photos", function(e){
+        var result = e.target.result;
+        if(result){
+            //console.log("photoHelper:getHistoryPhotos - " + (result.value.date));
+            var formattedPhotoDate = Date.parse(result.value.date).toString("ddMMyy");
+            var formattedTodayDate = Date.today().toString("ddMMyy");
 
             if(formattedTodayDate != formattedPhotoDate){
-                historyPhotos.unshift(allPhotos[i]);
+                console.log("photoHelper:getHistoryPhotos - Found history photos: " + (result.value.date));
+                // Unshift to get the latest photos first
+                historyPhotos.unshift(result.value);
             }
-          }
 
-        return historyPhotos;
-    }
+            result.continue();
+        } else {
+            completedHandler(historyPhotos);
+        }
+       })
+
+       //return todayPhotos;
+    },
 
 }

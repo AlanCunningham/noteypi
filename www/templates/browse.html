@@ -1,6 +1,10 @@
 <ion-view view-title="History">
 
   <ion-content>
+    <ion-refresher
+            pulling-text="Pull to refresh..."
+            on-refresh="refresh()">
+    </ion-refresher>
 
     <div class="list card" ng-repeat="photo in historyPhotos">
       <div style="padding-top: 10px; padding-left: 10px">

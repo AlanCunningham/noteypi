@@ -109,5 +109,19 @@ var database = {
         cursor.onerror = function(e){
             application.showErrorMessage("Error reading all records from table");
         };
+    },
+
+    isOpen: function(){
+        try {
+            if(db){
+                return true;
+            } else {
+                return false;
+            }
+        } catch(exception){
+            //application.showErrorMessage("Error checking if database is open - " + exception);
+            return false;
+        }
+
     }
 }

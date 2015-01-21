@@ -12,7 +12,6 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
   photoHelper.checkStorage();
 
 
-
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
