@@ -3,7 +3,7 @@
   <ion-content>
     <ion-refresher
             pulling-text="Pull to refresh..."
-            on-refresh="refresh()">
+            on-refresh="getTodayPhotos()">
     </ion-refresher>
 
     <div class="list card" ng-repeat="photo in todayPhotos">

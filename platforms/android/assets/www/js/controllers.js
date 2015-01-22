@@ -45,21 +45,16 @@ angular.module('starter.controllers', [])
   });
   */
 
+
+
   $timeout(function(){
     $scope.getTodayPhotos();
+    //$scope.refresh();
     //$ionicLoading.hide();
-  }, 100); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
+  }, 500); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
 
+  // TODO: Is this method actually required?  We could probably just use the same method...
   $scope.getTodayPhotos = function(){
-      // Get all photos from today
-      photoHelper.getTodayPhotos(function(photos){
-      //alert("Yay!" + photos[0].date);
-      $scope.todayPhotos = photos;
-      $scope.refresh();
-     });
-  }
-
-  $scope.refresh = function(){
     photoHelper.getTodayPhotos(function(photos){
       $scope.todayPhotos = photos;
       $scope.$broadcast('scroll.refreshComplete');
@@ -69,32 +64,14 @@ angular.module('starter.controllers', [])
 })
 
 .controller("HistoryCtrl", function($scope, $state, $timeout, $ionicLoading){
-/*
-    // Setup the loader
-    $ionicLoading.show({
-      content: 'Loading',
-      animation: 'fade-in',
-      showBackdrop: true,
-      maxWidth: 200,
-      showDelay: 0
-    });
-*/
+
     $timeout(function(){
       $scope.getHistoryPhotos();
       //$ionicLoading.hide();
-    }, 100); // Temporary timeout to allow the database to open.  Really we should have a listener to return when the database has opened.
+    }, 500); // Temporary timeout to allow the database to open.  Really we should have a listener to return when the database has opened.
 
-    $scope.getHistoryPhotos = function(){
-          // Get all photos from today
-          photoHelper.getHistoryPhotos(function(photos){
-          $scope.HistoryPhotos = photos;
-          $scope.refresh();
-         });
-      }
-
-      $scope.refresh = function(){
+      $scope.getHistoryPhotos = function(){
         photoHelper.getHistoryPhotos(function(photos){
-          //alert("Yay!" + photos[0].date);
           $scope.historyPhotos = photos;
           $scope.$broadcast('scroll.refreshComplete');
         });
