@@ -43,22 +43,32 @@ angular.module('starter.controllers', [])
     maxWidth: 200,
     showDelay: 0
   });
-  */
-
-
+*/
 
   $timeout(function(){
     $scope.getTodayPhotos();
-    //$scope.refresh();
-    //$ionicLoading.hide();
+    $ionicLoading.hide();
   }, 500); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
 
-  // TODO: Is this method actually required?  We could probably just use the same method...
   $scope.getTodayPhotos = function(){
     photoHelper.getTodayPhotos(function(photos){
       $scope.todayPhotos = photos;
       $scope.$broadcast('scroll.refreshComplete');
     });
+  };
+
+  $scope.savePhoto = function(photo){
+    alert("Saving " + photo.date);
+  };
+
+  $scope.deletePhoto = function(photo){
+    photoHelper.deletePhoto(photo.date, function(e){
+      // Timeout for a moment to allow update of the database
+      $timeout(function(){
+        $scope.getTodayPhotos();
+      }, 500);
+
+    })
   };
 
 })
@@ -67,7 +77,7 @@ angular.module('starter.controllers', [])
 
     $timeout(function(){
       $scope.getHistoryPhotos();
-      //$ionicLoading.hide();
+      $ionicLoading.hide();
     }, 500); // Temporary timeout to allow the database to open.  Really we should have a listener to return when the database has opened.
 
       $scope.getHistoryPhotos = function(){
@@ -76,6 +86,20 @@ angular.module('starter.controllers', [])
           $scope.$broadcast('scroll.refreshComplete');
         });
       };
+
+    $scope.savePhoto = function(photo){
+        alert("Saving " + photo.date);
+    };
+
+    $scope.deletePhoto = function(photo){
+      photoHelper.deletePhoto(photo.date, function(e){
+        // Timeout for a moment to allow update of the database
+        $timeout(function(){
+          $scope.getHistoryPhotos();
+        }, 500);
+
+      })
+    };
 
 
 })

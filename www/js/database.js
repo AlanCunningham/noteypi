@@ -59,8 +59,8 @@ var database = {
     },
 
     // Remove an object from a table using index
-    deleteRecord: function(selectedTable, index, indexValue){
-        var transaction = db.transaction([table], "readwrite");
+    deleteRecord: function(selectedTable, index, indexValue, callback){
+        var transaction = db.transaction([selectedTable], "readwrite");
         var table = transaction.objectStore(selectedTable);
         var index = table.index(index);
         var request = index.openCursor(indexValue);
@@ -72,7 +72,8 @@ var database = {
                 cursor.continue();
             } else {
                 // When the cursor has finished
-                console.log("database:deleteRecord - Successfully deleted " + indexValue + " from " + store);
+                console.log("database:deleteRecord - Successfully deleted " + indexValue + " from " + selectedTable);
+                callback();
             }
         }
 

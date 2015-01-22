@@ -88,4 +88,10 @@ var photoHelper = {
        //return todayPhotos;
     },
 
+    deletePhoto: function(indexToDelete, completedHandler){
+        database.deleteRecord("photos", "date", indexToDelete, function(e){
+            completedHandler();
+        });
+    }
+
 }
