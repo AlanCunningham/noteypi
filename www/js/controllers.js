@@ -48,7 +48,7 @@ angular.module('starter.controllers', [])
   $timeout(function(){
     $scope.getTodayPhotos();
     $ionicLoading.hide();
-  }, 500); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
+  }, 1000); // Temporary timeout to allow the database to open.  TODO: Really we should have a listener to return when the database has opened.
 
   $scope.getTodayPhotos = function(){
     photoHelper.getTodayPhotos(function(photos){

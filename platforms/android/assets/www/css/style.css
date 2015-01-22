@@ -2,3 +2,11 @@
 .pane {
     background-color: #F0F0F0;
 }
+
+.noPhotosMessage {
+    padding-top: 50px;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+
+}
