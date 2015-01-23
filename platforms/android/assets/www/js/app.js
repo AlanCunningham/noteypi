@@ -8,10 +8,6 @@ angular.module('starter', ['ionic', 'starter.controllers', "ui.router"])
 
 .run(function($ionicPlatform) {
 
-  // TODO: Remove when indexedDB is implemented.  This should no longer be required.
-  photoHelper.checkStorage();
-
-
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)

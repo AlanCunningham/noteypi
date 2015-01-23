@@ -31,7 +31,7 @@ var database = {
         openRequest.onsuccess = function(e){
             console.log("database:open - Successfully opened database");
             db = e.target.result;
-
+            // Callback to application module, now that the database is open.
             application.postDatabase();
         }
 

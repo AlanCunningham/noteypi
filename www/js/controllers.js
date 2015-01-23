@@ -73,12 +73,23 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller("HistoryCtrl", function($scope, $state, $timeout, $ionicLoading){
+.controller("HistoryCtrl", function($scope, $state, $timeout, $ionicLoading, $ionicPopup){
 
     $timeout(function(){
       $scope.getHistoryPhotos();
       $ionicLoading.hide();
     }, 500); // Temporary timeout to allow the database to open.  Really we should have a listener to return when the database has opened.
+
+    $scope.showLoader = function(){
+     // Setup the loader
+      $ionicLoading.show({
+        content: 'Loading',
+        animation: 'fade-in',
+        showBackdrop: true,
+        maxWidth: 200,
+        showDelay: 0
+      });
+    }
 
       $scope.getHistoryPhotos = function(){
         photoHelper.getHistoryPhotos(function(photos){
@@ -96,10 +107,34 @@ angular.module('starter.controllers', [])
         // Timeout for a moment to allow update of the database
         $timeout(function(){
           $scope.getHistoryPhotos();
+          $ionicLoading.hide();
         }, 500);
 
       })
     };
+
+    $scope.clear = function(){
+      var confirm = $ionicPopup.confirm({
+        title: "Delete all history photos",
+        template: "Are you sure you want to delete all photos in history?"
+      });
+      confirm.then(function(result){
+        if(result){
+          console.log("HistoryCtrl:clear - Deleting history photos - " + $scope.historyPhotos.length);
+          // Check if we have any photos to delete
+          if($scope.historyPhotos.length > 0){
+            // If we do, show the loader and delete each photo
+            $scope.showLoader();
+            for(var i = 0; i < $scope.historyPhotos.length; i++){
+            console.log("HistoryCtrl:clear - Deleting " + $scope.historyPhotos[i].date);
+              $scope.deletePhoto($scope.historyPhotos[i]);
+            }
+          }
+        } else {
+          console.log("HistoryCtrl:clear - Cancelled deleting history photos");
+        }
+      });
+    }
 
 
 })
