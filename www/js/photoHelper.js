@@ -19,14 +19,7 @@ var photoHelper = {
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
     savePhoto: function(dateTime){
-/*
-        $http.get("http://alan.manaha.co.uk:1337/base64").then(function(response){
-          console.log("photoHelper:savePhoto - Retrieving base64 of image");
 
-        }, function(error){
-          alert("Aww " + error.status);
-        })
-*/
         // Retrieve the base64 photo snapshot from the server
         $.ajax({
             url: "http://alan.manaha.co.uk:1337/base64",
@@ -47,11 +40,6 @@ var photoHelper = {
 
             }
         });
-
-
-
-
-        //console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
     },
 
     // Retrieve photos from today
