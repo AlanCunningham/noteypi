@@ -19,20 +19,39 @@ var photoHelper = {
 
     // Temporarily saves data to localStorage - testing for onNotification functionality
     savePhoto: function(dateTime){
-        // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
-        var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
-        var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
+/*
+        $http.get("http://alan.manaha.co.uk:1337/base64").then(function(response){
+          console.log("photoHelper:savePhoto - Retrieving base64 of image");
 
-        // Save the photo at the beginning of the array
-        var photo = {
-            date: parsedDate + " at " + parsedTime
-        };
+        }, function(error){
+          alert("Aww " + error.status);
+        })
+*/
+        // Retrieve the base64 photo snapshot from the server
+        $.ajax({
+            url: "http://alan.manaha.co.uk:1337/base64",
+            success: function(base64Result){
+                // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
+                var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
+                var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
 
-        database.addRecord("photos", photo, function(e){
-            console.log("Added record");
+                // Save the photo at the beginning of the array
+                var photo = {
+                    date: parsedDate + " at " + parsedTime,
+                    base64: base64Result
+                };
+
+                database.addRecord("photos", photo, function(e){
+                    console.log("Added record");
+                });
+
+            }
         });
 
-        console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
+
+
+
+        //console.log("Number of stored photos: " + localStorageHelper.getObject("photos").length);
     },
 
     // Retrieve photos from today
