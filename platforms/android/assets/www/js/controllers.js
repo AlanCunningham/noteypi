@@ -72,6 +72,10 @@ angular.module('starter.controllers', [])
     })
   };
 
+  $scope.notifications = function(){
+
+  }
+
 })
 
 .controller("HistoryCtrl", function($scope, $state, $timeout, $ionicLoading, $ionicPopup){
