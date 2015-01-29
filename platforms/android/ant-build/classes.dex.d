@@ -9,6 +9,7 @@ c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\Manifest.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$attr.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$drawable.class \
+c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$mipmap.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$string.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R$xml.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\ionicframework\noteypi531146\R.class \

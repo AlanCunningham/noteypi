@@ -11,7 +11,7 @@ var pushResponse = {
 
         // Save a photo to storage
         photoHelper.savePhoto(payload);
-        
+
     }
 
 }
