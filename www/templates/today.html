@@ -14,16 +14,14 @@
         <p>{{photo.date}}</p>
       </div>
 
-      <div class="item item-image" style="">
+      <div class="item item-image">
         <!--<center><i class="icon ion-image"></i></center>-->
         <img src="data:image/jpg;base64,{{photo.base64}}" width="auto"/>
       </div>
 
-      <div class="item">
-        <div class="button-bar">
-          <button class="button button-full button-balanced icon ion-checkmark" ng-click="savePhoto(photo)"></button>
-          <button class="button button-full button-assertive icon ion-close" ng-click="deletePhoto(photo)"></button>
-        </div>
+      <div class="item item-button-right">
+        <p>{{photo.camera}}</p>
+        <button class="button button-clear button-assertive icon ion-trash-b" ng-click="deletePhoto(photo)"></button>
       </div>
     </div>
 

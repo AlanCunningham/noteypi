@@ -82,21 +82,17 @@ var pushHandler = {
 		        // you might want to play a sound to get the user's attention, throw up a dialog, etc.
 		        if ( e.foreground )
 		        {
-					window.plugins.toast.showLongBottom("New notification - refresh to view", function(a){
-						console.log("Hooray!");
-					}, function(b){
-						console.log("Aww");
-					});
+					window.plugins.toast.showLongBottom("New notification - refresh to view", function(a){}, function(b){});
 
 		        	//alert("Incoming message!\n" + e.payload.message);
 		            //$("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
 
 		            // on Android soundname is outside the payload.
 		            // On Amazon FireOS all custom attributes are contained within payload
-		            var soundfile = e.soundname || e.payload.sound;
+		            //var soundfile = e.soundname || e.payload.sound;
 		            // if the notification contains a soundname, play it.
-		            var my_media = new Media("/android_asset/www/"+ soundfile);
-		            my_media.play();
+		            //var my_media = new Media("/android_asset/www/"+ soundfile);
+		            //my_media.play();
 		        }
 		        else
 		        {  // otherwise we were launched because the user touched a notification in the notification tray.

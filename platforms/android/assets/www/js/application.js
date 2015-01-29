@@ -16,8 +16,12 @@ var application = {
         var self = this;
 
         console.log("application:postDatabase");
-
-        //photoHelper.savePhoto("2015-01-29 10:44:09 +0000");
+/*
+        photoHelper.savePhoto({
+            dateTime: "2015-01-27 10:44:09 +0000",
+            camera: "Front door"
+        });
+*/
 
         // Register for push notifications
         pushHandler.register();

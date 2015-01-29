@@ -9,10 +9,9 @@ var pushResponse = {
 
     onNotification: function(payload){
 
-        // Save a "photo" to storage.  At the moment, this grabs the datetime sent from the server
-        // TODO: also save payload.photo
-        photoHelper.savePhoto(payload.datetime);
-
+        // Save a photo to storage
+        photoHelper.savePhoto(payload);
+        
     }
 
 }

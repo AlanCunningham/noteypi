@@ -17,16 +17,15 @@ var photoHelper = {
         }
     },
 
-    // Temporarily saves data to localStorage - testing for onNotification functionality
-    savePhoto: function(dateTime){
+    savePhoto: function(payload){
         var self = this;
 
         var externalAddress = "http://alan.manaha.co.uk:1337/base64";
         var internalAddress = "http://192.168.1.96:1337/base64";
 
-        self.retrieveServerPhoto(externalAddress, dateTime, function(){
+        self.retrieveServerPhoto(externalAddress, payload, function(){
             // On error
-            self.retrieveServerPhoto(internalAddress, dateTime, function(error){
+            self.retrieveServerPhoto(internalAddress, payload, function(error){
                 // If we've errored another time, then something must have gone pretty wrong...
                 application.showErrorMessage("Error retrieving photo from server");
             });
@@ -98,17 +97,18 @@ var photoHelper = {
     * String dateTime   - The dateTime sent by the server (bundled in the payload)
     * function errorHandler - What to do on error.  This is used to handle if we try to connect when on the same network as the server
     */
-    retrieveServerPhoto: function(serverUrl, dateTime, errorHandler){
+    retrieveServerPhoto: function(serverUrl, payload, errorHandler){
         $.ajax({
             url: serverUrl,
             success: function(base64Result){
                 // Parse the date and time sent from the server (Original format is: 2015-01-17 14:44:09 +0000)
-                var parsedDate = Date.parse(dateTime).toString("dddd d MMMM"); // Format: Monday 01 January
-                var parsedTime = Date.parse(dateTime).toString("HH:mm:ss"); // Format: 15:30:02
+                var parsedDate = Date.parse(payload.datetime).toString("dddd d MMMM"); // Format: Monday 01 January
+                var parsedTime = Date.parse(payload.datetime).toString("HH:mm:ss"); // Format: 15:30:02
 
                 // Save the photo at the beginning of the array
                 var photo = {
                     date: parsedDate + " at " + parsedTime,
+                    camera: payload.camera,
                     base64: base64Result
                 };
 
