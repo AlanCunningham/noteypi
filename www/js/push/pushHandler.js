@@ -82,6 +82,12 @@ var pushHandler = {
 		        // you might want to play a sound to get the user's attention, throw up a dialog, etc.
 		        if ( e.foreground )
 		        {
+					window.plugins.toast.showLongBottom("New notification - refresh to view", function(a){
+						console.log("Hooray!");
+					}, function(b){
+						console.log("Aww");
+					});
+
 		        	//alert("Incoming message!\n" + e.payload.message);
 		            //$("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
 

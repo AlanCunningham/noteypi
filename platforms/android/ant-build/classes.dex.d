@@ -16,6 +16,8 @@ c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\Cord
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\GCMIntentService.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\PushHandlerActivity.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\com\plugin\gcm\PushPlugin.class \
+c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\nl\xservices\plugins\Toast$1.class \
+c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\nl\xservices\plugins\Toast.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\dexedLibs\classes-bd79a308ab70fcdd80f3d7757acdb996.jar \
 c:\ionic\noteypi\noteypi\platforms\android\ant-build\dexedLibs\gcm-e8bbeb25dc509072b906609a38ff13f3.jar \

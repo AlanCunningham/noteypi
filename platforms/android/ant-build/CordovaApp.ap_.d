@@ -126,11 +126,16 @@ c:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_i
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-variables.scss \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin \
+c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\nl.x-services.plugins.toast \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js \
+c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test \
+c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\www \
+c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test\tests.js \
+c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\www\Toast.js \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
 c:\ionic\noteypi\noteypi\platforms\android\assets\www\templates\browse.html \

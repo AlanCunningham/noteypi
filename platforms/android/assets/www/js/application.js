@@ -14,6 +14,7 @@ var application = {
     // Called from database.js after the database has been created
     postDatabase: function(){
         var self = this;
+
         console.log("application:postDatabase");
 
         //photoHelper.savePhoto("2015-01-29 10:44:09 +0000");
