@@ -101,7 +101,8 @@ public class GCMIntentService extends GCMBaseIntentService {
 		NotificationCompat.Builder mBuilder =
 			new NotificationCompat.Builder(context)
 				.setDefaults(defaults)
-				.setSmallIcon(context.getApplicationInfo().icon)
+				//.setSmallIcon(context.getApplicationInfo().icon)
+				.setSmallIcon(com.ionicframework.noteypi531146.R.drawable.icon_notification)
 				.setWhen(System.currentTimeMillis())
 				.setContentTitle(extras.getString("title"))
 				.setTicker(extras.getString("title"))
