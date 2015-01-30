@@ -18,7 +18,7 @@ var application = {
         console.log("application:postDatabase");
 /*
         photoHelper.savePhoto({
-            dateTime: "2015-01-27 10:44:09 +0000",
+            datetime: "2015-01-27 10:44:09 +0000",
             camera: "Front door"
         });
 */

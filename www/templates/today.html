@@ -9,14 +9,14 @@
       <p>There's nothing here</p>
     </div>
 
-    <div class="list card fade-in" ng-repeat="photo in todayPhotos" >
+    <div class="list card" ng-repeat="photo in todayPhotos" >
       <div style="padding-top: 10px; padding-left: 10px">
         <p>{{photo.date}}</p>
       </div>
 
       <div class="item item-image">
         <!--<center><i class="icon ion-image"></i></center>-->
-        <img src="data:image/jpg;base64,{{photo.base64}}" width="auto"/>
+        <img ng-src="data:image/jpg;base64,{{photo.base64}}" width="auto"/>
       </div>
 
       <div class="item item-button-right">
